@@ -1,27 +1,38 @@
 body {
-    padding: 10;
-    margin: 10;
+    padding: 10px;
+    margin: 10px;
     font-family: arial, helvetica neue, helvetica, sans-Serif;
     font-size: 18px;
-    line-height: 150;
+    line-height: 150px;
     color: #777;
     background: #777;
     width: 960px;
 }
+
 header {
-    background: #ebebeb;
-    width: 300px;
+    background: red;
+    width: 100%;
     height: 200px;
+    text-align: center;
 }
+
+header, nav, section, aside {
+    background-color:red;
+    margin:10px;
+}
+
+/*
 Nav {
     background: #ebebeb;
 }
 section {
     background: #ebebeb;
     width: 495px;
+    float: left;
 }
 Aside {
     background: #ebebeb;
+    float: right;
 }
 Footer {
     background: #ebebeb;
@@ -33,6 +44,7 @@ a {
 h1{
     color: #777;
     background: #ebebeb;
+    text-align: center;
 }
 p {
     color: #777;
@@ -41,3 +53,9 @@ p {
 .container { width: 1024px;
 margin; 0 auto:
 }
+.clearfix::after {
+    content: " ";
+    display: block;
+    clear: both;
+  }
+*/
