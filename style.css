@@ -1,0 +1,41 @@
+body {
+    padding: 0;
+    margin: 0:
+    font-family: arial, helvetica neue, helvetica, sans-Serif;
+    font-size: 18px;
+    line-height: 150;
+    color: #777;
+    background: #777;
+    width: 960px;
+}
+header {
+    background: #ebebeb;
+}
+Nav {
+    background: #ebebeb;
+}
+section {
+    background: #ebebeb;
+    width: 495px;
+}
+Aside {
+    background: #ebebeb;
+}
+Footer {
+    background: #ebebeb;
+}
+a {
+   color: #ebebeb;
+   background-color: #777;
+}
+h1{
+    color: #777;
+    background: #ebebeb;
+}
+p {
+    color: #777;
+    background: #ebebeb;
+}
+.container { width: 1024px;
+margin; 0 auto:
+}
